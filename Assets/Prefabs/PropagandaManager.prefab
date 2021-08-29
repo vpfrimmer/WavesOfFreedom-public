@@ -1,0 +1,564 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1728018640872088}
+  m_IsPrefabParent: 1
+--- !u!1 &1230623410006680
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4753139015855554}
+  - component: {fileID: 114721705799209324}
+  - component: {fileID: 114163785845367296}
+  m_Layer: 0
+  m_Name: Indoctrination
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1247993875363724
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4935842635692674}
+  - component: {fileID: 114681452787311610}
+  - component: {fileID: 114851468784028910}
+  - component: {fileID: 114006069617293444}
+  m_Layer: 0
+  m_Name: ToVictory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1517610890574990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4488407481191998}
+  - component: {fileID: 114538596166242696}
+  m_Layer: 0
+  m_Name: Faction A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1577192566007184
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4121026188790470}
+  - component: {fileID: 114802330677538790}
+  - component: {fileID: 114217703343953496}
+  - component: {fileID: 114225819632283100}
+  - component: {fileID: 114443096654664712}
+  m_Layer: 0
+  m_Name: Agitprop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1666851291295066
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4357922589082354}
+  - component: {fileID: 114532856401303024}
+  - component: {fileID: 114941265805803492}
+  m_Layer: 0
+  m_Name: Provocation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1723798624462614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4358143447452750}
+  m_Layer: 0
+  m_Name: Faction B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1728018640872088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4314799673552050}
+  - component: {fileID: 114306220516223112}
+  m_Layer: 0
+  m_Name: PropagandaManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1802666983752820
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4954046409323392}
+  - component: {fileID: 114725846989869334}
+  - component: {fileID: 114599406234250826}
+  - component: {fileID: 114135832103200960}
+  m_Layer: 0
+  m_Name: Drafting
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1922135282330934
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4648296980411506}
+  - component: {fileID: 114962604936965150}
+  - component: {fileID: 114064105252558762}
+  m_Layer: 0
+  m_Name: Resistance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4121026188790470
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1577192566007184}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4488407481191998}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4314799673552050
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1728018640872088}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4488407481191998}
+  - {fileID: 4358143447452750}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4357922589082354
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1666851291295066}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4488407481191998}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4358143447452750
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1723798624462614}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4314799673552050}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4488407481191998
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1517610890574990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4753139015855554}
+  - {fileID: 4121026188790470}
+  - {fileID: 4954046409323392}
+  - {fileID: 4648296980411506}
+  - {fileID: 4357922589082354}
+  - {fileID: 4935842635692674}
+  m_Father: {fileID: 4314799673552050}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4648296980411506
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1922135282330934}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4488407481191998}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4753139015855554
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1230623410006680}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4488407481191998}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4935842635692674
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1247993875363724}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4488407481191998}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4954046409323392
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802666983752820}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4488407481191998}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114006069617293444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1247993875363724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e9d87fc929216243a810ee0963b4e21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _affiliation: 1
+  _attackForce: 3
+  _defenseForce: 1
+--- !u!114 &114064105252558762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1922135282330934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754a1c4b1ef36354f93f953ed0ac4dd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _idealKillsPerSecond: 1
+--- !u!114 &114135832103200960
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802666983752820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9135e9e8015fae1458fd8c00da1cf2d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _inRebelCities: 1
+  _inLoyalistCities: 0
+  _supportPerSecond: -0.1
+--- !u!114 &114163785845367296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1230623410006680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9135e9e8015fae1458fd8c00da1cf2d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _inRebelCities: 1
+  _inLoyalistCities: 0
+  _supportPerSecond: 0.1
+--- !u!114 &114217703343953496
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1577192566007184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9135e9e8015fae1458fd8c00da1cf2d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _inRebelCities: 0
+  _inLoyalistCities: 1
+  _supportPerSecond: 0.1
+--- !u!114 &114225819632283100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1577192566007184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6db45d80cc458ea408abae0b14faad40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _idealDesertsPerSecond: 1
+--- !u!114 &114306220516223112
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1728018640872088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6160343956a63524b8145ff29f790e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentFaction: {fileID: 114538596166242696}
+--- !u!114 &114443096654664712
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1577192566007184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9135e9e8015fae1458fd8c00da1cf2d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _inRebelCities: 1
+  _inLoyalistCities: 0
+  _supportPerSecond: -0.05
+--- !u!114 &114532856401303024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1666851291295066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ee59d431bd9bd4b88571dce140bdf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Poster: {fileID: 21300000, guid: 542a2d32c84c9974fa3c8284029fecc3, type: 3}
+  Name: Provocation
+  Duration: 10
+  CooldownDuration: 30
+  Description: 'Insult the evil Ant Queen to provoke loyalist attacks.
+
+
+    <i>The queen is a fruit fly!</i>
+
+'
+--- !u!114 &114538596166242696
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1517610890574990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b097d35857708048b42428b17b967db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Propagandas: []
+--- !u!114 &114599406234250826
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802666983752820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4915fbf5fdd023c4e8a0ea68c5303472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _proportionalToSupport: 0
+  _soldiersPerSecond: 2
+--- !u!114 &114681452787311610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1247993875363724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ee59d431bd9bd4b88571dce140bdf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Poster: {fileID: 21300000, guid: 873a0c4841a7e95449355bcb6248be03, type: 3}
+  Name: To victory
+  Duration: 10
+  CooldownDuration: 30
+  Description: "Motivates rebel city to attack, increases offensive force.\n\n<i>\xA1Hasta
+    la victoria siempre! </i>"
+--- !u!114 &114721705799209324
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1230623410006680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ee59d431bd9bd4b88571dce140bdf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Poster: {fileID: 21300000, guid: f1de539340e9e1e44945839796be9895, type: 3}
+  Name: Indoctrination
+  Duration: 10
+  CooldownDuration: 30
+  Description: 'Increases support in rebel-controlled cities.
+
+
+    <i>Ants of the hill, unite!</i>
+
+'
+--- !u!114 &114725846989869334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802666983752820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ee59d431bd9bd4b88571dce140bdf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Poster: {fileID: 21300000, guid: 494ee1e203b24724cabb7da536e6cf8c, type: 3}
+  Name: Drafting
+  Duration: 10
+  CooldownDuration: 30
+  Description: 'Drafts are an unpopular but effective way to mobilize fast a lot of
+    troops.
+
+
+    <i>You may not be interested in war. But war is interested in you.</i>'
+--- !u!114 &114802330677538790
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1577192566007184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ee59d431bd9bd4b88571dce140bdf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Poster: {fileID: 21300000, guid: 2e28290052d1c6e47a0f4a5664daaf37, type: 3}
+  Name: Agitprop
+  Duration: 10
+  CooldownDuration: 30
+  Description: "Increases support and defection in government-controlled cities. \nNot
+    everyone in your cities agrees with theses agressive methods, though.\n\r\n<i>Stand
+    up for your rights!</i>"
+--- !u!114 &114851468784028910
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1247993875363724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42661ab5781821c40b899fd1b6329e8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _affiliation: 1
+  _selfEsteem: 2.5
+--- !u!114 &114941265805803492
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1666851291295066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42661ab5781821c40b899fd1b6329e8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _affiliation: 0
+  _selfEsteem: 3
+--- !u!114 &114962604936965150
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1922135282330934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ee59d431bd9bd4b88571dce140bdf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Poster: {fileID: 21300000, guid: 66f5754d9b77348439aea2fdf390efed, type: 3}
+  Name: Resistance
+  Duration: 10
+  CooldownDuration: 30
+  Description: 'Rebel civilians in government-controlled cities will kill soldiers.
+
+
+    <i>Obedience is treason.</i>'
